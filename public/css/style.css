@@ -1,0 +1,424 @@
+html,
+body{
+    height: 100%;
+    margin: 0;
+    background-color: #EAF2FA;
+    font-family: 'Montserrat', sans-serif;
+    overflow-x:  hidden;
+}
+
+
+.header_main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: flex-start;
+    margin-top: 1%;
+}
+.header_menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 30%;
+}
+.logo_img{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo_div {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.header_menu_child{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-right: 100px;
+    font-size: 30px;
+}
+
+
+.main{
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap-reverse;
+    justify-content: center;
+    align-items: center;
+    margin: 0 50px 50px;
+    margin-top: -60;
+    margin-bottom: -60px;
+}
+
+.footer_item{
+
+    width: 50px;
+    height: 50px;
+}
+.footer_right{
+    flex-basis: 500px;
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+    font-size: 30px;
+}
+.footer_left{
+    font-size: 30px;
+}
+.menu_link{
+    text-decoration: none;
+    color:#1A1A1A;
+}
+.logo_text{
+    min-width: 300%;
+    margin-top: 5%;
+}
+.btn {
+    font-family: 'Montserrat';
+    letter-spacing: 3px;
+    background: #b5bdc8;
+    background: linear-gradient(to left, #FDA93E 30%, #ED5452 100%);
+    font-size: 16px; /* Размер шрифта */
+    padding: 15px 25px; /* Поля вокруг текста */
+    color: #1A1A1A; /* Цвет текста */
+    border-radius: 40px; /* Радиус скругления */
+    border: 0;
+    font-size: 150%;
+    max-width: 60%;
+}
+a{
+    text-decoration: none;
+    color: #1A1A1A;
+}
+.child_main_one{
+    font-size: 115%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+}
+.main_txt{
+    margin-bottom: 20%;
+    margin-top: 20%;
+}
+.child_main_two{
+    justify-content: space-between;
+    display: flex;
+}
+.container{
+    min-height: 100%;
+    font-family: 'Montserrat';
+    letter-spacing: 3px;
+    height: content-box;
+}
+footer{
+    position: absolute;
+    bottom: 0;
+    display: flex;
+    background-color: white;
+    justify-content:space-between;
+    padding: 60px 60px;
+    align-content: flex-end;
+    width: 100%;
+    margin-top: 10%;
+}
+
+input{
+    outline: none;
+    border: none;
+    letter-spacing: 3px;
+    font-size: 16px; /* Размер шрифта */
+    padding: 15px 25px; /* Поля вокруг текста */
+    color: #1A1A1A; /* Цвет текста */
+    border-radius: 40px; /* Радиус скругления */
+    font-family: 'Montserrat';
+}
+.glav{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5%;
+    flex-wrap: wrap;
+
+}
+
+.glav1{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5%;
+    flex-wrap: wrap;
+
+}
+
+.menu a{
+    display: block;
+    background-color: white;
+    letter-spacing: 3px;
+    font-size: 16px; /* Размер шрифта */
+    padding: 15px 25px; /* Поля вокруг текста */
+    color: #1A1A1A; /* Цвет текста */
+    border-radius: 40px; /* Радиус скругления */
+    font-family: 'Montserrat';
+    border-bottom: 1px solid #EAF2FA;
+}
+.side{
+
+}
+.menu a:hover{
+    background: #b5bdc8;
+    transition: 0.5s all;
+}
+.menu__list{
+    position: relative;
+    list-style-type: none;
+    cursor: pointer;
+}
+.menu__drop{
+    position: absolute;
+    background-color: white;
+    letter-spacing: 3px;
+    font-size: 16px; /* Размер шрифта */
+    padding: 15px 25px; /* Поля вокруг текста */
+    color: #1A1A1A; /* Цвет текста */
+    border-radius: 40px; /* Радиус скругления */
+    font-family: 'Montserrat';
+    list-style-type: none;
+    left: 100%;
+    top: -99999%;
+    opacity: 0;
+}
+.menu__list:hover .menu__drop{
+    opacity: 1;
+    top: 0;
+}
+ul{
+    list-style-type: none;
+}
+
+
+
+.b{
+    background-color: white;
+    letter-spacing: 3px;
+    font-size: 16px; /* Размер шрифта */
+    padding: 15px 25px; /* Поля вокруг текста */
+    color: #1A1A1A; /* Цвет текста */
+    border-radius: 40px; /* Радиус скругления */
+    font-family: 'Montserrat';
+    border: 0;
+    margin-left: 8%;
+    width: 83%;
+}
+
+.map1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.f{
+    width: 90%;
+}
+
+.f1{
+    width: 90%;
+    margin-bottom: 5%;
+}
+
+.f2{
+    width: 90%;
+    margin-bottom: 5%;
+}
+
+.f3{
+    width: 90%;
+    margin-bottom: 5%;
+}
+
+.f4{
+    width: 90%;
+    margin-bottom: 5%;
+}
+
+.f5{
+    width: 90%;
+    margin-bottom: 5%;
+}
+
+.f6{
+    margin-bottom: 5%;
+    width: 130%;
+    margin-left: -30%;
+}
+
+.f7{
+    margin-bottom: 5%;
+    width: 130%;
+    margin-left: -30%;
+}
+
+.f8{
+    margin-bottom: 5%;
+    width: 130%;
+    margin-left: -30%;
+}
+
+.f9{
+    margin-bottom: 5%;
+    width: 130%;
+    margin-left: -30%;
+}
+
+.p{
+    margin-top: 2%;
+}
+
+.btn1{
+    font-family: 'Montserrat';
+    letter-spacing: 3px;
+    background: #b5bdc8;
+    background: linear-gradient(to left, #FDA93E 30%, #ED5452 100%);
+    padding: 15px 25px; /* Поля вокруг текста */
+    color: #1A1A1A; /* Цвет текста */
+    border-radius: 40px; /* Радиус скругления */
+    border: 0;
+    font-size: 150%;
+    max-width: 60%;
+    margin-top: 5%;
+    cursor: pointer;
+}
+
+.btn4{
+    font-family: 'Montserrat';
+    letter-spacing: 3px;
+    background: #b5bdc8;
+    background: linear-gradient(to left, #FDA93E 30%, #ED5452 100%);
+    padding: 15px 25px; /* Поля вокруг текста */
+    color: #1A1A1A; /* Цвет текста */
+    border-radius: 40px; /* Радиус скругления */
+    border: 0;
+    font-size: 150%;
+    max-width: 100%;
+    cursor: pointer;
+}
+
+.btn2 {
+    font-family: 'Montserrat';
+    letter-spacing: 3px;
+    background: #b5bdc8;
+    background: linear-gradient(to left, #FDA93E 30%, #ED5452 100%);
+    font-size: 16px; /* Размер шрифта */
+    padding: 15px 25px; /* Поля вокруг текста */
+    color: #1A1A1A; /* Цвет текста */
+    border-radius: 40px; /* Радиус скругления */
+    border: 0;
+    font-size: 150%;
+    max-width: 80%;
+    cursor: pointer;
+}
+
+.google{
+    width: 3%;
+    margin-left: 1%;
+}
+
+.log{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.d{
+    display: flex;
+    justify-content: center;
+}
+
+.menu1 a{
+    display: block;
+    background-color: white;
+    letter-spacing: 3px;
+    font-size: 16px; /* Размер шрифта */
+    padding: 15px 25px; /* Поля вокруг текста */
+    color: #1A1A1A; /* Цвет текста */
+    border-radius: 20px; /* Радиус скругления */
+    font-family: 'Montserrat';
+    border-bottom: 1px solid #EAF2FA;
+}
+.side1{
+    margin-right: 20%;
+    margin-left: 20%;
+    z-index: 1;
+}
+
+.menu__list1{
+    position: relative;
+    list-style-type: none;
+    cursor: pointer;
+}
+.menu__drop1{
+    z-index: 2;
+    position: absolute;
+    background-color: white;
+    letter-spacing: 3px;
+    font-size: 16px; /* Размер шрифта */
+    padding: 15px 25px; /* Поля вокруг текста */
+    color: #1A1A1A; /* Цвет текста */
+    border-radius: 20px; /* Радиус скругления */
+    font-family: 'Montserrat';
+    list-style-type: none;
+    top: -99999%;
+    opacity: 0;
+}
+.menu__list1:hover .menu__drop1{
+    z-index: 2;
+    opacity: 1;
+    top: 0%;
+}
+
+.menu1 a{
+    display: block;
+    background-color: white;
+    letter-spacing: 3px;
+    font-size: 16px; /* Размер шрифта */
+    padding: 15px 25px; /* Поля вокруг текста */
+    color: #1A1A1A; /* Цвет текста */
+    border-radius: 20px; /* Радиус скругления */
+    font-family: 'Montserrat';
+    border-bottom: 1px solid #EAF2FA;
+}
+.side1{
+    margin-right: 20%;
+    margin-left: 20%;
+}
+
+.menu__list1{
+    z-index: 1;
+    position: relative;
+    list-style-type: none;
+    cursor: pointer;
+}
+.menu__drop1{
+    z-index: 2;
+    background-color: white;
+    letter-spacing: 3px;
+    font-size: 16px; /* Размер шрифта */
+    padding: 15px 25px; /* Поля вокруг текста */
+    color: #1A1A1A; /* Цвет текста */
+    border-radius: 20px; /* Радиус скругления */
+    font-family: 'Montserrat';
+    list-style-type: none;
+    width: 95.5%;
+    top: -99999%;
+    opacity: 0;
+}
+.menu__list1:hover .menu__drop1{
+    opacity: 1;
+    top: 0;
+}
